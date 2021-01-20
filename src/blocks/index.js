@@ -39,8 +39,8 @@ export default (editor, config) => {
     });
 
     toAdd('text-basic-1') && bm.add('text-basic-1', {
-        category: 'Basic-1',
-        label: 'Text section-1',
+        category: 'Custom Components',
+        label: 'Text section',
         attributes: {class: 'gjs-fonts gjs-f-h1p'},
         content: `<section class="bdg-sect">
       <h1 class="heading">Insert title here 1</h1>
