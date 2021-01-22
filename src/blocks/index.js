@@ -38,7 +38,7 @@ export default (editor, config) => {
       </section>`
     });
 
-    toAdd('text-basic-1') && bm.add('text-basic-1', {
+    /*toAdd('text-basic-1') && bm.add('text-basic-1', {
         category: 'Custom Components',
         label: 'Text section',
         attributes: {class: 'gjs-fonts gjs-f-h1p'},
@@ -46,5 +46,5 @@ export default (editor, config) => {
       <h1 class="heading">Insert title here 1</h1>
       <p class="paragraph">Paragraph</p>
       </section>`
-    });
+    });*/
 }
