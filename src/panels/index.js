@@ -32,6 +32,7 @@ export default (editor, config) => {
       command: swv,
       context: swv,
       className: 'fa fa-square-o',
+      active: true,
     },{
       id: prv,
       context: prv,
