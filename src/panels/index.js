@@ -69,7 +69,7 @@ export default (editor, config) => {
     buttons  : [{
       id: osm,
       command: osm,
-      active: true,
+      active: false,
       className: 'fa fa-paint-brush',
     },{
       id: otm,
