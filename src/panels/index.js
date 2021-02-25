@@ -32,7 +32,7 @@ export default (editor, config) => {
       command: swv,
       context: swv,
       className: 'fa fa-square-o',
-      active: true,
+      active: false,
     },{
       id: prv,
       context: prv,
@@ -69,7 +69,7 @@ export default (editor, config) => {
     buttons  : [{
       id: osm,
       command: osm,
-      active: false,
+      active: true,
       className: 'fa fa-paint-brush',
     },{
       id: otm,
